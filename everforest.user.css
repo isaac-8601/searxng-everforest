@@ -1,0 +1,448 @@
+/* ==UserStyle==
+@name SearXNG Everforest
+@namespace github.com/isaac-8601/searxng-everforest
+@version 0.1.0
+@description Everforest theme for SearXNG
+@author isaac-8601
+@supportURL https://github.com/isaac-8601/searxng-everforest/issues/new/choose
+@license MIT
+
+@preprocessor less
+@var select contrast "Contrast" ["soft:Soft", "medium:Medium*","hard:Hard"]
+@var select variant "Variant" ["dark:Dark*", "light:Light"]
+==/UserStyle== */
+@-moz-document url-prefix("http://ransack.i2p/"),
+url-prefix("https://darmarit.org/searx/"),
+url-prefix("https://de.xcxc.ml/"),
+url-prefix("https://dynabyte.ca/"),
+url-prefix("https://etsi.me/"),
+url-prefix("https://icanfindit.online/"),
+url-prefix("https://jackgoss.xyz/"),
+url-prefix("https://jsearch.pw/"),
+url-prefix("https://metasearch.nl/"),
+url-prefix("https://northboot.xyz/"),
+url-prefix("https://notsearch.uk/"),
+url-prefix("https://opnxng.com/"),
+url-prefix("https://paulgo.io/"),
+url-prefix("https://priv.au/"),
+url-prefix("https://privatus.live/"),
+url-prefix("https://s.frlt.one/"),
+url-prefix("https://s.zhaocloud.net/"),
+url-prefix("https://saber.tk/"),
+url-prefix("https://search.0relay.com/"),
+url-prefix("https://search.affusio.com/"),
+url-prefix("https://search.bus-hit.me/"),
+url-prefix("https://search.callmeecho.dev/"),
+url-prefix("https://search.chemicals-in-the-water.eu/"),
+url-prefix("https://search.cronobox.one/"),
+url-prefix("https://search.disroot.org/"),
+url-prefix("https://search.ethibox.fr/"),
+url-prefix("https://search.gcomm.ch/"),
+url-prefix("https://search.kiwitalk.de/"),
+url-prefix("https://search.mdosch.de/"),
+url-prefix("https://search.mpx.wtf/"),
+url-prefix("https://search.neet.works/"),
+url-prefix("https://search.ononoki.org/"),
+url-prefix("https://search.privacyguides.net/"),
+url-prefix("https://search.projectsegfau.lt/"),
+url-prefix("https://search.rabbit-company.com/"),
+url-prefix("https://search.rhscze.cf/"),
+url-prefix("https://search.rowie.at/"),
+url-prefix("https://search.sapti.me/"),
+url-prefix("https://search.serginho.dev/"),
+url-prefix("https://search.smnz.de/"),
+url-prefix("https://search.snopyta.org/"),
+url-prefix("https://search.stinpriza.org/"),
+url-prefix("https://search.teamriverbubbles.com/"),
+url-prefix("https://search.trom.tf/"),
+url-prefix("https://search.unlocked.link/"),
+url-prefix("https://search.uspersec.com/"),
+url-prefix("https://search.vidhukant.xyz/"),
+url-prefix("https://search.zzls.xyz/"),
+url-prefix("https://searx.baczek.me/"),
+url-prefix("https://searx.be/"),
+url-prefix("https://searx.becomesovran.com/"),
+url-prefix("https://searx.bissisoft.com/"),
+url-prefix("https://searx.chocoflan.net/"),
+url-prefix("https://searx.divided-by-zero.eu/"),
+url-prefix("https://searx.dresden.network/"),
+url-prefix("https://searx.ebnar.xyz/"),
+url-prefix("https://searx.ericaftereric.top/"),
+url-prefix("https://searx.esmailelbob.xyz/"),
+url-prefix("https://searx.fi/"),
+url-prefix("https://searx.fmac.xyz/"),
+url-prefix("https://searx.fossencdi.org/"),
+url-prefix("https://searx.gnous.eu/"),
+url-prefix("https://searx.gnu.style/"),
+url-prefix("https://searx.kujonello.cf/"),
+url-prefix("https://searx.mastodontech.de/"),
+url-prefix("https://searx.mha.fi/"),
+url-prefix("https://searx.mistli.net/"),
+url-prefix("https://searx.mxchange.org/"),
+url-prefix("https://searx.nakhan.net/"),
+url-prefix("https://searx.namejeff.xyz/"),
+url-prefix("https://searx.netzspielplatz.de/"),
+url-prefix("https://searx.nixnet.services/"),
+url-prefix("https://searx.org/"),
+url-prefix("https://searx.orion-hub.fr/"),
+url-prefix("https://searx.priv.pw/"),
+url-prefix("https://searx.prvcy.eu/"),
+url-prefix("https://searx.rimkus.it/"),
+url-prefix("https://searx.roflcopter.fr/"),
+url-prefix("https://searx.ru/"),
+url-prefix("https://searx.run/"),
+url-prefix("https://searx.semipvt.com/"),
+url-prefix("https://searx.sethforprivacy.com/"),
+url-prefix("https://searx.sev.monster/"),
+url-prefix("https://searx.slipfox.xyz/searx/"),
+url-prefix("https://searx.sp-codes.de/"),
+url-prefix("https://searx.stuehieyr.com/"),
+url-prefix("https://searx.tiekoetter.com/"),
+url-prefix("https://searx.tuxcloud.net/"),
+url-prefix("https://searx.tyil.nl/"),
+url-prefix("https://searx.vanwa.tech/"),
+url-prefix("https://searx.webheberg.info/"),
+url-prefix("https://searx.xyz/"),
+url-prefix("https://searx.zapashcanon.fr/"),
+url-prefix("https://searx.zcyph.cc/"),
+url-prefix("https://searxng.ir/"),
+url-prefix("https://searxng.nicfab.eu/"),
+url-prefix("https://searxng.zackptg5.com/"),
+url-prefix("https://serx.ml/"),
+url-prefix("https://sh0.it/"),
+url-prefix("https://soek.allesbeste.com/"),
+url-prefix("https://spot.ecloud.global/"),
+url-prefix("https://srx.cosmohub.io/"),
+url-prefix("https://searx.oakleycord.dev/"),
+url-prefix("https://suche.dasnetzundich.de/"),
+url-prefix("https://suche.tromdienste.de/"),
+url-prefix("https://suche.uferwerk.org/"),
+url-prefix("https://swag.pw/"),
+url-prefix("https://sx.catgirl.cloud/"),
+url-prefix("https://timdor.noip.me/searx/"),
+url-prefix("https://trydex.tk/searxng/"),
+url-prefix("https://www.gruble.de/"),
+url-prefix("https://www.webrats.xyz/"),
+url-prefix("https://xcxc.ml/"),
+url-prefix("https://xo.wtf/")
+{
+
+
+     @everforest: {
+          @light: {
+            @soft: {
+                @bg_dim: #e5dfc5;
+                @bg0: #f3ead3;
+                @bg1: #eae4ca;
+                @bg2: #e5dfc5;
+                @bg3: #ddd8be;
+                @bg4: #d8d3ba;
+                @bg5: #b9c0ab;
+                @bg_red: #f4dbd0;
+                @bg_visual: #e1e4bd;
+                @bg_yellow: #f1e4c5;
+                @bg_green: #e5e6c5;
+                @bg_blue: #e1e7dd;
+                @red: #F85552;
+                @orange: #F57D26;
+                @yellow: #DFA000;
+                @green: #8DA101;
+                @blue: #3A94C5;
+                @aqua: #35A77C;
+                @purple: #DF69BA;
+                @fg: #5C6A72;
+                @statusline1: #93B259;
+                @statusline2: #708089;
+                @statusline3: #E66868;
+                @gray0: #A6B0A0;
+                @gray1: #939F91;
+                @gray2: #829181;
+            };
+            @medium: {
+                @bg_dim: #efebd4;
+                @bg0: #fdf6e3;
+                @bg1: #f4f0d9;
+                @bg2: #efebd4;
+                @bg3: #e6e2cc;
+                @bg4: #e0dcc7;
+                @bg5: #bdc3af;
+                @bg_red: #fbe3da;
+                @bg_visual: #eaedc8;
+                @bg_yellow: #faedcd;
+                @bg_green: #f0f1d2;
+                @bg_blue: #e9f0e9;
+                @red: #F85552;
+                @orange: #F57D26;
+                @yellow: #DFA000;
+                @green: #8DA101;
+                @blue: #3A94C5;
+                @aqua: #35A77C;
+                @purple: #DF69BA;
+                @fg: #5C6A72;
+                @statusline1: #93B259;
+                @statusline2: #708089;
+                @statusline3: #E66868;
+                @gray0: #A6B0A0;
+                @gray1: #939F91;
+                @gray2: #829181;
+            };
+            @hard: {
+                @bg_dim: #F2EFDF;
+                @bg0: #FFFBEF;
+                @bg1: #F8F5E4;
+                @bg2: #F2EFDF;
+                @bg3: #EDEADA;
+                @bg4: #E8E5D5;
+                @bg5: #BEC5B2;
+                @bg_red: #FFE7DE;
+                @bg_visual: #F0F2D4;
+                @bg_yellow: #FEF2D5;
+                @bg_green: #F3F5D9;
+                @bg_blue: #ECF3ED;
+                @red: #F85552;
+                @orange: #F57D26;
+                @yellow: #DFA000;
+                @green: #8DA101;
+                @blue: #3A94C5;
+                @aqua: #35A77C;
+                @purple: #DF69BA;
+                @fg: #5C6A72;
+                @statusline1: #93B259;
+                @statusline2: #708089;
+                @statusline3: #E66868;
+                @gray0: #A6B0A0;
+                @gray1: #939F91;
+                @gray2: #829181;
+              };
+         };
+         @dark: {
+            @soft: {
+                @bg_dim: #293136;
+                @bg0: #333c43;
+                @bg1: #3a464c;
+                @bg2: #434f55;
+                @bg3: #4d5960;
+                @bg4: #555f66;
+                @bg5: #5d6b66;
+                @bg_red: #5c3f4f;
+                @bg_visual: #59464c;
+                @bg_yellow: #55544a;
+                @bg_green: #48584e;
+                @bg_blue: #3f5865;
+                @red: #E67E80;
+                @orange: #E69875;
+                @yellow: #DBBC7F;
+                @green: #A7C080;
+                @blue: #7FBBB3;
+                @aqua: #83C092;
+                @purple: #D699B6;
+                @fg: #D3C6AA;
+                @statusline1: #A7C080;
+                @statusline2: #D3C6AA;
+                @statusline3: #E67E80;
+                @gray0: #7A8478;
+                @gray1: #859289;
+                @gray2: #9DA9A0;
+            };
+            @medium: {
+                @bg_dim: #232a2e;
+                @bg0: #2d353b;
+                @bg1: #343f44;
+                @bg2: #3d484d;
+                @bg3: #475258;
+                @bg4: #4f5258;
+                @bg5: #56635f;
+                @bg_red: #543a48;
+                @bg_visual: #514045;
+                @bg_yellow: #4d4c43;
+                @bg_green: #425047;
+                @bg_blue: #3a515d;
+                @red: #E67E80;
+                @orange: #E69875;
+                @yellow: #DBBC7F;
+                @green: #A7C080;
+                @blue: #7FBBB3;
+                @aqua: #83C092;
+                @purple: #D699B6;
+                @fg: #D3C6AA;
+                @statusline1: #A7C080;
+                @statusline2: #D3C6AA;
+                @statusline3: #E67E80;
+                @gray0: #7A8478;
+                @gray1: #859289;
+                @gray2: #9DA9A0;
+            };
+            @hard: {
+                @bg_dim: #1E2326;
+                @bg0: #272e33;
+                @bg1: #2E383C;
+                @bg2: #374145;
+                @bg3: #414B50;
+                @bg4: #495156;
+                @bg5: #4F5B58;
+                  @bg_red: #4C3743;
+                  @bg_visual: #493B40;
+                  @bg_yellow: #45443C;
+                  @bg_green: #3C4841;
+                  @bg_blue: #384B55;
+                  @red: #E67E80;
+                  @orange: #E69875;
+                  @yellow: #DBBC7F;
+                  @green: #A7C080;
+                  @blue: #7FBBB3;
+                  @aqua: #83C092;
+                  @purple: #D699B6;
+                  @fg: #D3C6AA;
+                  @statusline1: #A7C080;
+                  @statusline2: #D3C6AA;
+                  @statusline3: #E67E80;
+                  @gray0: #7A8478;
+                  @gray1: #859289;
+                  @gray2: #9DA9A0;
+              };
+         };
+    }
+
+
+  :root.theme-auto {
+    #everforest(@variant, @contrast);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root.theme-auto {
+      #everforest(@variant, @contrast);
+    }
+  }
+
+  :root.theme-dark {
+    #everforest(@variant, @contrast);
+  }
+  :root.theme-light {
+    #everforest(@variant, @contrast);
+  }
+
+
+  #everforest(@variant, @contrast) {
+
+
+    /*everforest colors */
+    @fg: @everforest[@@variant][@@contrast][@fg];
+    @gray0: @everforest[@@variant][@@contrast][@gray0];
+    @gray1: @everforest[@@variant][@@contrast][@gray1];
+    @gray2: @everforest[@@variant][@@contrast][@gray2];
+
+
+    @bg_dim: @everforest[@@variant][@@contrast][@bg_dim];
+    @bg0: @everforest[@@variant][@@contrast][@bg0];
+    @bg1: @everforest[@@variant][@@contrast][@bg1];
+    @bg2: @everforest[@@variant][@@contrast][@bg2];
+    @bg3: @everforest[@@variant][@@contrast][@bg3];
+    @green: @everforest[@@variant][@@contrast][@green];
+    @orange: @everforest[@@variant][@@contrast][@orange];
+    @red: @everforest[@@variant][@@contrast][@red];
+    @purple: @everforest[@@variant][@@contrast][@purple];
+    
+
+    --color-base-font: @fg;
+    --color-base-background: @bg0;
+    --color-base-background-mobile: @bg0;
+    --color-url-font: @green;
+    --color-url-visited-font: @green;
+    --color-header-background: @bg_dim;
+    --color-header-border: @bg_dim;
+    --color-footer-background: @bg_dim;
+    --color-footer-border: @bg_dim;
+    --color-sidebar-border: @bg0;
+    --color-sidebar-font: @fg;
+    --color-sidebar-background: @bg0;
+    --color-sidebar-border: @gray0;
+    --color-backtotop-font: @gray0;
+    --color-backtotop-border: @bg1;
+    --color-backtotop-background: @bg1;
+    --color-btn-background: @green;
+    --color-btn-font: @bg0;
+    --color-show-btn-background: @green;
+    --color-show-btn-font: @bg0;
+    --color-search-border: @bg1;
+    --color-search-shadow: 0 2px 8px @bg_dim;
+    --color-search-background: @bg1;
+    --color-search-font: @fg;
+    --color-search-background-hover: @green;
+    --color-error: @red;
+    --color-error-background: @bg1;
+    --color-warning: @orange;
+    --color-warning-background: @bg1;
+    --color-success: @green;
+    --color-success-background: @bg1;
+    --color-categories-item-selected-font: @fg;
+    --color-categories-item-border-selected: @green;
+    --color-autocomplete-font: @gray0;
+    --color-autocomplete-border: @bg1;
+    --color-autocomplete-shadow: 0 2px 8px @bg_dim;
+    --color-autocomplete-background: @bg1;
+    --color-autocomplete-background-hover: @bg2;
+    --color-answer-font: @fg;
+    --color-answer-background: @bg_dim;
+    --color-result-background: @bg_dim;
+    --color-result-border: @bg2;
+    --color-result-url-font: @gray2;
+    --color-result-vim-selected: @bg1;
+    --color-result-vim-arrow: @green;
+    --color-result-description-highlight-font: @fg;
+    --color-result-link-font: @green;
+    --color-result-link-font-highlight: @green;
+    --color-result-link-visited-font: @green;
+    --color-result-publishdate-font: @gray0;
+    --color-result-engines-font: @gray1;
+    --color-result-search-url-border: @gray0;
+    --color-result-search-url-font: @fg;
+    --color-result-detail-font: @fg;
+    --color-result-detail-label-font: @gray1;
+    --color-result-detail-background: @bg0;
+    --color-result-detail-hr: @gray0;
+    --color-result-detail-link: @green;
+    --color-result-detail-loader-border: rgba(255, 255, 255, 0.2);
+    --color-result-detail-loader-borderleft: @bg_dim;
+    --color-result-image-span-font: @fg;
+    --color-result-image-span-font-selected: @bg0;
+    --color-result-image-background: @bg_dim;
+    --color-settings-tr-hover: @bg1;
+    --color-settings-engine-description-font: @fg;
+    --color-settings-engine-group-background: @bg1;
+    --color-toolkit-badge-font: @fg;
+    --color-toolkit-badge-background: @bg1;
+    --color-toolkit-kbd-font: @fg;
+    --color-toolkit-kbd-background: @bg_dim;
+    --color-toolkit-dialog-border: @bg_dim;
+    --color-toolkit-dialog-background: @bg_dim;
+    --color-toolkit-tabs-label-border: @bg0;
+    --color-toolkit-tabs-section-border: @bg0;
+    --color-toolkit-select-background: @bg1;
+    --color-toolkit-select-border: @bg1;
+    --color-toolkit-select-background-hover: @bg2;
+    --color-toolkit-input-text-font: @fg;
+    --color-toolkit-checkbox-onoff-off-background: @bg1;
+    --color-toolkit-checkbox-onoff-on-background: @bg1;
+    --color-toolkit-checkbox-onoff-on-mark-background: @green;
+    --color-toolkit-checkbox-onoff-on-mark-color: @bg_dim;
+    --color-toolkit-checkbox-onoff-off-mark-background: @red;
+    --color-toolkit-checkbox-onoff-off-mark-color: @bg_dim;
+    --color-toolkit-checkbox-label-background: @bg0;
+    --color-toolkit-checkbox-label-border: @gray0;
+    --color-toolkit-checkbox-input-border: @green;
+    --color-toolkit-engine-tooltip-border: @gray0;
+    --color-toolkit-engine-tooltip-background: @bg1;
+    --color-toolkit-loader-border: rgba(255, 255, 255, 0.2);
+    --color-toolkit-loader-borderleft: @bg_dim;
+    --color-doc-code: @purple;
+    --color-doc-code-background: @bg_dim;
+
+    #search_logo svg :not([fill="none"]) {
+      fill: @green;
+    }
+    #search_logo svg :not([stroke="none"]) {
+      stroke: @green;
+    }
+  }
+
+}
