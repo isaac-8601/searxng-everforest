@@ -1,5 +1,9 @@
 # Everforest for SearXNG
 
+<p align="center">
+  <img src="assets/screenshot.png"/>
+</p>
+
 ## Usage
 This userstyle is applied by default on a few commonly used Searxng servers, listed at the top:
 ```css
