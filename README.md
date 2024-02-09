@@ -5,7 +5,7 @@
 </p>
 
 ## Usage
-This userstyle is applied by default on a few commonly used Searxng servers, listed at the top:
+This userstyle is applied by default on a few commonly used SearXNG servers, listed at the top:
 ```css
 @-moz-document url-prefix("https://searx.baczek.me/"), url-prefix("https://searx.be/") {
 ```
