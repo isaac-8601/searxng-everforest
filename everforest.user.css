@@ -128,7 +128,7 @@ url-prefix("https://xo.wtf/")
 {
 
 
-     @everforest: {
+     @backgrounds: {
           @light: {
             @soft: {
                 @bg_dim: #e5dfc5;
@@ -143,20 +143,6 @@ url-prefix("https://xo.wtf/")
                 @bg_yellow: #f1e4c5;
                 @bg_green: #e5e6c5;
                 @bg_blue: #e1e7dd;
-                @red: #F85552;
-                @orange: #F57D26;
-                @yellow: #DFA000;
-                @green: #8DA101;
-                @blue: #3A94C5;
-                @aqua: #35A77C;
-                @purple: #DF69BA;
-                @fg: #5C6A72;
-                @statusline1: #93B259;
-                @statusline2: #708089;
-                @statusline3: #E66868;
-                @gray0: #A6B0A0;
-                @gray1: #939F91;
-                @gray2: #829181;
             };
             @medium: {
                 @bg_dim: #efebd4;
@@ -171,20 +157,6 @@ url-prefix("https://xo.wtf/")
                 @bg_yellow: #faedcd;
                 @bg_green: #f0f1d2;
                 @bg_blue: #e9f0e9;
-                @red: #F85552;
-                @orange: #F57D26;
-                @yellow: #DFA000;
-                @green: #8DA101;
-                @blue: #3A94C5;
-                @aqua: #35A77C;
-                @purple: #DF69BA;
-                @fg: #5C6A72;
-                @statusline1: #93B259;
-                @statusline2: #708089;
-                @statusline3: #E66868;
-                @gray0: #A6B0A0;
-                @gray1: #939F91;
-                @gray2: #829181;
             };
             @hard: {
                 @bg_dim: #F2EFDF;
@@ -199,20 +171,6 @@ url-prefix("https://xo.wtf/")
                 @bg_yellow: #FEF2D5;
                 @bg_green: #F3F5D9;
                 @bg_blue: #ECF3ED;
-                @red: #F85552;
-                @orange: #F57D26;
-                @yellow: #DFA000;
-                @green: #8DA101;
-                @blue: #3A94C5;
-                @aqua: #35A77C;
-                @purple: #DF69BA;
-                @fg: #5C6A72;
-                @statusline1: #93B259;
-                @statusline2: #708089;
-                @statusline3: #E66868;
-                @gray0: #A6B0A0;
-                @gray1: #939F91;
-                @gray2: #829181;
               };
          };
          @dark: {
@@ -229,20 +187,6 @@ url-prefix("https://xo.wtf/")
                 @bg_yellow: #55544a;
                 @bg_green: #48584e;
                 @bg_blue: #3f5865;
-                @red: #E67E80;
-                @orange: #E69875;
-                @yellow: #DBBC7F;
-                @green: #A7C080;
-                @blue: #7FBBB3;
-                @aqua: #83C092;
-                @purple: #D699B6;
-                @fg: #D3C6AA;
-                @statusline1: #A7C080;
-                @statusline2: #D3C6AA;
-                @statusline3: #E67E80;
-                @gray0: #7A8478;
-                @gray1: #859289;
-                @gray2: #9DA9A0;
             };
             @medium: {
                 @bg_dim: #232a2e;
@@ -257,20 +201,6 @@ url-prefix("https://xo.wtf/")
                 @bg_yellow: #4d4c43;
                 @bg_green: #425047;
                 @bg_blue: #3a515d;
-                @red: #E67E80;
-                @orange: #E69875;
-                @yellow: #DBBC7F;
-                @green: #A7C080;
-                @blue: #7FBBB3;
-                @aqua: #83C092;
-                @purple: #D699B6;
-                @fg: #D3C6AA;
-                @statusline1: #A7C080;
-                @statusline2: #D3C6AA;
-                @statusline3: #E67E80;
-                @gray0: #7A8478;
-                @gray1: #859289;
-                @gray2: #9DA9A0;
             };
             @hard: {
                 @bg_dim: #1E2326;
@@ -280,27 +210,48 @@ url-prefix("https://xo.wtf/")
                 @bg3: #414B50;
                 @bg4: #495156;
                 @bg5: #4F5B58;
-                  @bg_red: #4C3743;
-                  @bg_visual: #493B40;
-                  @bg_yellow: #45443C;
-                  @bg_green: #3C4841;
-                  @bg_blue: #384B55;
-                  @red: #E67E80;
-                  @orange: #E69875;
-                  @yellow: #DBBC7F;
-                  @green: #A7C080;
-                  @blue: #7FBBB3;
-                  @aqua: #83C092;
-                  @purple: #D699B6;
-                  @fg: #D3C6AA;
-                  @statusline1: #A7C080;
-                  @statusline2: #D3C6AA;
-                  @statusline3: #E67E80;
-                  @gray0: #7A8478;
-                  @gray1: #859289;
-                  @gray2: #9DA9A0;
+                @bg_red: #4C3743;
+                @bg_visual: #493B40;
+                @bg_yellow: #45443C;
+                @bg_green: #3C4841;
+                @bg_blue: #384B55;
               };
          };
+    }
+
+    @foregrounds: {
+      @light: {
+        @red: #F85552;
+        @orange: #F57D26;
+        @yellow: #DFA000;
+        @green: #8DA101;
+        @blue: #3A94C5;
+        @aqua: #35A77C;
+        @purple: #DF69BA;
+        @fg: #5C6A72;
+        @statusline1: #93B259;
+        @statusline2: #708089;
+        @statusline3: #E66868;
+        @gray0: #A6B0A0;
+        @gray1: #939F91;
+        @gray2: #829181;
+      }
+      @dark: {
+        @red: #E67E80;
+        @orange: #E69875;
+        @yellow: #DBBC7F;
+        @green: #A7C080;
+        @blue: #7FBBB3;
+        @aqua: #83C092;
+        @purple: #D699B6;
+        @fg: #D3C6AA;
+        @statusline1: #A7C080;
+        @statusline2: #D3C6AA;
+        @statusline3: #E67E80;
+        @gray0: #7A8478;
+        @gray1: #859289;
+        @gray2: #9DA9A0;
+      }
     }
 
 
@@ -326,21 +277,23 @@ url-prefix("https://xo.wtf/")
 
 
     /*everforest colors */
-    @fg: @everforest[@@variant][@@contrast][@fg];
-    @gray0: @everforest[@@variant][@@contrast][@gray0];
-    @gray1: @everforest[@@variant][@@contrast][@gray1];
-    @gray2: @everforest[@@variant][@@contrast][@gray2];
+    @fg: @foregrounds[@@variant][@fg];
+    @gray0: @foregrounds[@@variant][@gray0];
+    @gray1: @foregrounds[@@variant][@gray1];
+    @gray2: @foregrounds[@@variant][@gray2];
+
+    @green: @foregrounds[@@variant][@green];
+    @orange: @foregrounds[@@variant][@orange];
+    @red: @foregrounds[@@variant][@red];
+    @purple: @foregrounds[@@variant][@purple];
 
 
-    @bg_dim: @everforest[@@variant][@@contrast][@bg_dim];
-    @bg0: @everforest[@@variant][@@contrast][@bg0];
-    @bg1: @everforest[@@variant][@@contrast][@bg1];
-    @bg2: @everforest[@@variant][@@contrast][@bg2];
-    @bg3: @everforest[@@variant][@@contrast][@bg3];
-    @green: @everforest[@@variant][@@contrast][@green];
-    @orange: @everforest[@@variant][@@contrast][@orange];
-    @red: @everforest[@@variant][@@contrast][@red];
-    @purple: @everforest[@@variant][@@contrast][@purple];
+    @bg_dim: @backgrounds[@@variant][@@contrast][@bg_dim];
+    @bg0: @backgrounds[@@variant][@@contrast][@bg0];
+    @bg1: @backgrounds[@@variant][@@contrast][@bg1];
+    @bg2: @backgrounds[@@variant][@@contrast][@bg2];
+    @bg3: @backgrounds[@@variant][@@contrast][@bg3];
+    
     
 
     --color-base-font: @fg;
